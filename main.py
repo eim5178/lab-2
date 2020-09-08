@@ -6,24 +6,25 @@
 # Breakout: 
 def getLetterGrade(percent):
   if percent >= float(93.0):
-    print("Your letter grade for CMPSC 131 is A.")
+    return 'A'
   elif percent >= float(90.0):
-    print("Your letter grade for CMPSC 131 is A-.")
+    return 'A-'
   elif percent >= float(87.0):
-    print("Your letter grade for CMPSC 131 is B+.")
+    return 'B+'
   elif percent >= float(83.0):
-    print("Your letter grade for CMPSC 131 is B.")
+    return 'B'
   elif percent >= float(80.0):
-    print("Your letter grade for CMPSC 131 is B-.")
+    return 'B-'
   elif percent >= float(77.0):
-    print("Your letter grade for CMPSC 131 is C+.")
+    return 'C+'
   elif percent >= float(70.0):
-    print("Your letter grade for CMPSC 131 is C.")
+    return 'C'
   elif percent >= float(60.0):
-    print("Your letter grade for CMPSC 131 is D.")
+    return 'D'
   else:
-    print("Your letter grade for CMPSC 131 is F.")
+    return 'F'
 def run():
   percent = float(input("Enter your CMPSC 131 grade: "))
+  print(f"Your letter grade for CMPSC 131 is {getLetterGrade(percent)}.")
 if __name__ == '__main__':
- run()
+  run()

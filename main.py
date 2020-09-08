@@ -4,8 +4,8 @@
 # Collaborator:
 # Section:
 # Breakout: 
-def getLetterGrade():
-  percent = float(input("Enter your CMPSC 131 grade: "))
+percent = float(input("Enter your CMPSC 131 grade: "))
+def getLetterGrade(percent):
   if percent >= float(93.0):
     print("Your letter grade for CMPSC 131 is A.")
   elif percent >= float(90.0):

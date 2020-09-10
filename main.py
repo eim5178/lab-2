@@ -1,9 +1,7 @@
 # Author: Evelyn Moore eim5178@psu.edu
-# Collaborator:
-# Collaborator:
-# Collaborator:
-# Section:
-# Breakout: 
+# Collaborator:Zelin Chen zvc5228@psu.edu
+# Section: 4
+# Breakout: 3
 def getLetterGrade(percent):
   if percent >= float(93.0):
     return 'A'
